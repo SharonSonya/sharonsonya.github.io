@@ -4721,3 +4721,87 @@ a:hover {
 	#copyright li {
 		color:#ffffff !imprtant;
 	}
+
+/* ==========================================================================
+   MODERN PORTFOLIO OVERRIDES
+   ========================================================================== */
+
+:root {
+  --bg-primary: #f8fafc;
+  --bg-card: #ffffff;
+  --text-main: #0f172a;
+  --text-muted: #475569;
+  --accent-color: #2563eb;
+  --accent-hover: #1d4ed8;
+  --border-color: #e2e8f0;
+}
+
+body {
+  background-color: var(--bg-primary) !important;
+  color: var(--text-main) !important;
+}
+
+/* Header & Intro Polish */
+#intro {
+  padding: 4rem 1.5rem !important;
+  background: #0f172a !important;
+  color: #ffffff !important;
+  text-align: center;
+}
+
+#intro h1 {
+  color: #ffffff !important;
+  font-size: 2.5rem !important;
+  margin-bottom: 0.75rem !important;
+}
+
+#intro p {
+  color: #94a3b8 !important;
+  font-size: 1.05rem !important;
+  line-height: 1.6 !important;
+}
+
+/* Project Cards Layout */
+.project-card {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 12px !important;
+  padding: 1.75rem !important;
+  margin-bottom: 2rem !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.project-card img {
+  border-radius: 8px !important;
+  width: 100% !important;
+  height: 200px !important;
+  object-fit: cover !important;
+  margin-bottom: 1rem !important;
+}
+
+.project-card h2 a {
+  color: var(--text-main) !important;
+  text-decoration: none !important;
+}
+
+.project-card p {
+  color: var(--text-muted) !important;
+  font-size: 0.95rem !important;
+  line-height: 1.5 !important;
+}
+
+/* Primary Accent Buttons */
+.button.primary {
+  background-color: var(--accent-color) !important;
+  color: #ffffff !important;
+  border-radius: 6px !important;
+  padding: 0.6rem 1.25rem !important;
+  font-weight: 600 !important;
+  text-decoration: none !important;
+  border: none !important;
+  display: inline-block;
+}
+
+.button.primary:hover {
+  background-color: var(--accent-hover) !important;
+}
