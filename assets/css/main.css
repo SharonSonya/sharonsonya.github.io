@@ -4842,3 +4842,16 @@ body {
 #navPanelToggle span {
   display: none !important;
 }
+/* Fix Project Card Vertical Layout */
+.project-card {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.project-card .actions.special {
+  margin-top: 1.25rem !important;
+}
+
+.project-card .button.primary {
+  position: static !important;
+}
