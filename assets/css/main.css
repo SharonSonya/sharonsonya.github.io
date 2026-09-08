@@ -4823,3 +4823,16 @@ body {
 .project-card .button.primary {
   margin: 0 auto !important;
 }
+/* Fix Mobile Navigation / Hamburger Toggle Visibility */
+#navPanelToggle {
+  background-color: #0f172a !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15) !important;
+  top: 1rem !important;
+  right: 1rem !important;
+}
+
+#navPanelToggle:before {
+  color: #ffffff !important;
+  line-height: 2.25rem !important;
+}
