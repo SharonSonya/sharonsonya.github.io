@@ -4805,3 +4805,17 @@ body {
 .button.primary:hover {
   background-color: var(--accent-hover) !important;
 }
+
+/* Center Project Buttons */
+.project-card .actions.special {
+  justify-content: center !important;
+  margin-top: 1.25rem !important;
+}
+
+.project-card .actions.special li {
+  width: auto !important;
+}
+
+.project-card .button.primary {
+  margin: 0 auto !important;
+}
