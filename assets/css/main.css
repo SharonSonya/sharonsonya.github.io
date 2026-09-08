@@ -4855,3 +4855,34 @@ body {
 .project-card .button.primary {
   position: static !important;
 }
+
+/* Reset Massively Project Card Layout */
+#main .posts {
+  display: grid !important;
+  gap: 2rem !important;
+}
+
+#main .posts .project-card {
+  display: block !important;
+  height: auto !important;
+  min-height: 0 !important;
+}
+
+#main .posts .project-card .actions.special {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: auto !important;
+  margin: 1.25rem 0 0 !important;
+  padding: 0 !important;
+}
+
+#main .posts .project-card .actions.special li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#main .posts .project-card .button {
+  position: static !important;
+  margin: 0 !important;
+}
