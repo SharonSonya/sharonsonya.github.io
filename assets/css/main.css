@@ -4833,3 +4833,8 @@ body {
   color: #ffffff !important;
   line-height: 2.25rem !important;
 }
+
+/* Hide MENU text, keep hamburger icon */
+#navPanelToggle span {
+  display: none !important;
+}
