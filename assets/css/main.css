@@ -4820,9 +4820,6 @@ body {
   margin: 0 auto !important;
 }
 
-.project-card .button.primary {
-  margin: 0 auto !important;
-}
 /* Fix Mobile Navigation / Hamburger Toggle Visibility */
 #navPanelToggle {
   background-color: #0f172a !important;
