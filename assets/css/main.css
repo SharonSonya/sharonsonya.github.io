@@ -4808,16 +4808,20 @@ body {
 
 /* Center Project Buttons */
 .project-card .actions.special {
+  display: flex !important;
   justify-content: center !important;
-  margin-top: 1.25rem !important;
+  align-items: center !important;
+  margin: 1.25rem 0 0 !important;
+  padding: 0 !important;
 }
 
 .project-card .actions.special li {
   width: auto !important;
+  padding: 0 !important;
 }
 
 .project-card .button.primary {
-  margin: 0 auto !important;
+  margin: 0 !important;
 }
 
 /* Fix Mobile Navigation / Hamburger Toggle Visibility */
