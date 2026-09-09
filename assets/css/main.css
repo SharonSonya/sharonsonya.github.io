@@ -4889,3 +4889,16 @@ body {
   margin: 0 !important;
 }
 
+/* Force button text centering */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
