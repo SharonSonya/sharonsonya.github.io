@@ -4902,3 +4902,18 @@ button,
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
+/* Custom Button Center Override */
+.button,
+button,
+input[type="submit"],
+input[type="button"] {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    line-height: normal !important;
+    height: 3.25rem !important;
+}
