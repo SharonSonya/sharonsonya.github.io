@@ -4495,6 +4495,12 @@ input, select, textarea {
 		position: fixed;
 		top: 0.75rem;
 		right: 0.75rem;
+
+	    text-indent: -9999px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    width: 3.25rem !important;
+		
 		border: 0;
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
