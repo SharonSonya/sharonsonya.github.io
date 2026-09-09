@@ -4922,6 +4922,6 @@ input[type="button"] {
 button,
 input[type="submit"],
 input[type="button"] {
-    font-size: 1rem !important; /* Adjust from default ~0.8rem to 1rem */
+    font-size: 1rem !important; /* Adjust from default ~0.9rem to 1rem */
     letter-spacing: 0.15em !important; /* Slightly reduces spread so text stays centered */
 }
