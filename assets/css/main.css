@@ -4887,16 +4887,3 @@ body {
   margin: 0 !important;
 }
 
-/* Center View Project button vertically inside cards */
-article.project-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-}
-
-article.project-card .actions {
-    margin-top: auto;
-    margin-bottom: auto;
-}
