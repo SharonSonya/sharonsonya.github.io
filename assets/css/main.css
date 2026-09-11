@@ -4951,3 +4951,8 @@ button.icon.solo:before {
   content: none !important;
   display: none !important;
 }
+/* Remove the Continue scroll-down button entirely */
+#intro .button.icon.solo,
+#banner .button.icon.solo {
+  display: none !important;
+}
