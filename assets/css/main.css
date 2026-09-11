@@ -4975,3 +4975,18 @@ button.icon.solo:before {
   }
 }
 
+/* Clean up project grid spacing and sizing */
+#main .posts {
+  gap: 1.5rem !important;
+}
+
+#main .posts > * {
+  padding: 0 !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+#main .posts .project-card {
+  width: 100% !important;
+  height: 100% !important;
+}
