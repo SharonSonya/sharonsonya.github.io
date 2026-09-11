@@ -4943,3 +4943,11 @@ a.scrolly .icon,
 #banner a[href*="about"] .icon {
   display: none !important;
 }
+/* Hide the down-arrow inside the CONT button */
+.button.icon.solo:before,
+input[type="submit"].icon.solo:before,
+input[type="button"].icon.solo:before,
+button.icon.solo:before {
+  content: none !important;
+  display: none !important;
+}
