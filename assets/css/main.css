@@ -4936,3 +4936,10 @@ input[type="button"] {
 #navButton .toggle:before {
   content: '' !important;
 }
+
+/* Hide the down arrow in the scroll-down button */
+#banner .icon:before,
+a.scrolly .icon,
+#banner a[href*="about"] .icon {
+  display: none !important;
+}
