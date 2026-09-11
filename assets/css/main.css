@@ -4956,3 +4956,9 @@ button.icon.solo:before {
 #banner .button.icon.solo {
   display: none !important;
 }
+
+/* Add spacing between name and subtitle */
+#intro header p,
+#intro > p {
+  margin-top: 1.5rem !important;
+}
