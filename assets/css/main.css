@@ -4957,16 +4957,3 @@ button.icon.solo:before {
   display: none !important;
 }
 
-/* Add spacing between name and subtitle */
-#intro header p,
-#intro > p {
-  margin-top: 1.5rem !important;
-}
-
-/* Add spacing between name and subtitle - stronger selector */
-#intro h1 + p,
-#intro h2 + p,
-#intro header + p {
-  margin-top: 2rem !important;
-  display: block !important;
-}
