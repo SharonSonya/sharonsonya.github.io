@@ -4995,3 +4995,6 @@ button.icon.solo:before {
 #footer > section.split.contact > section:first-child {
   display: none !important;
 }
+#footer > section:first-child {
+  display: none !important;
+}
