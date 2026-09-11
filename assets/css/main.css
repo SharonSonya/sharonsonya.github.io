@@ -4957,3 +4957,10 @@ button.icon.solo:before {
   display: none !important;
 }
 
+#intro h1 {
+  margin-bottom: 1.5rem !important;
+}
+#nav {
+  display: none !important;
+}
+
