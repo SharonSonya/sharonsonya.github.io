@@ -4925,3 +4925,14 @@ input[type="button"] {
     font-size: 1rem !important; /* Adjust from default ~0.9rem to 1rem */
     letter-spacing: 0.15em !important; /* Slightly reduces spread so text stays centered */
 }
+
+/* Custom hamburger icon override */
+#navButton .toggle {
+  color: transparent !important;
+  font-size: 0 !important;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect y='15' width='100' height='12' fill='white'/%3E%3Crect y='44' width='100' height='12' fill='white'/%3E%3Crect y='73' width='100' height='12' fill='white'/%3E%3C/svg%3E") no-repeat center center !important;
+  background-size: 55% 55% !important;
+}
+#navButton .toggle:before {
+  content: '' !important;
+}
