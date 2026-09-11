@@ -4990,3 +4990,8 @@ button.icon.solo:before {
   width: 100% !important;
   height: 100% !important;
 }
+
+/* Remove the contact form, keep Phone/Email/Social */
+#footer > section.split.contact > section:first-child {
+  display: none !important;
+}
