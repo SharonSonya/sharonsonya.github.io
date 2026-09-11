@@ -4998,3 +4998,14 @@ button.icon.solo:before {
 #footer > section:first-child {
   display: none !important;
 }
+
+/* Uniform "View Project" button position across all cards */
+.project-card {
+  padding: 1.75rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.project-card .actions.special {
+  margin-top: auto !important;
+  padding-top: 1.5rem !important;
+}
