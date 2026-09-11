@@ -4964,3 +4964,14 @@ button.icon.solo:before {
   display: none !important;
 }
 
+/* Two-column project grid: Layoffs + COVID side by side, Cyclistic below */
+#main .posts {
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+
+@media screen and (max-width: 736px) {
+  #main .posts {
+    grid-template-columns: 1fr !important;
+  }
+}
+
